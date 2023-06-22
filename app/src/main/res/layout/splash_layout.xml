@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c8dae6"
+    android:rotationX="2"
+    tools:context=".Activities.SplashActivity">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="408dp"
+        android:layout_height="404dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/todo1"
+        android:src="@drawable/que" />
+
+    <TextView
+        android:id="@+id/txtCoffeeshop"
+        android:layout_width="391dp"
+        android:layout_height="197dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/bangers"
+        android:gravity="center_horizontal"
+
+
+        android:rotationX="30"
+        android:text="Nhà Hàng Schwarzer Ritter"
+        android:textColor="#36505d"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/txtPowered"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="30dp"
+        android:text="Powered by Schwarzer Ritter"
+        android:textColor="#455A64" />
+
+
+</FrameLayout>
